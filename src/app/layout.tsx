@@ -21,6 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
         <Head>
+            {/* eslint-disable-next-line @next/next/no-css-tags */}
             <link rel="stylesheet" href="/@fortawesome/fontawesome-free/css/all.min.css"/>
         </Head>
         <body className={inter.className}>
