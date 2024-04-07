@@ -9,7 +9,7 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Gabriel M.P.",
+  title: "Gabriel M. P.",
   description: "My portfolio dev in next.js",
 };
 
@@ -26,9 +26,9 @@ export default function RootLayout({
         </Head>
         <body className={inter.className}>
             <main className="flex min-h-screen flex-col items-center justify-between p-6 md:p-12 lg:p-24">
-                <Header/>
+                <Header />
                 {children}
-                <Footer/>
+                <Footer />
             </main>
         </body>
     </html>

@@ -33,6 +33,10 @@ body {
   color: rgb(var(--soft-accent-rgb)) !important;
 }
 
+.indent {
+  text-indent: 20px;
+}
+
 @layer utilities {
   /*.text-balance {
     text-wrap: balance;
