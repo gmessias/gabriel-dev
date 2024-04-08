@@ -4,7 +4,7 @@ interface TagColorProps {
 
 const TagColor: React.FC<TagColorProps> = ({ children }) => {
     return (
-        <span className={"text-[rgb(var(--soft-accent-rgb))]"}>
+        <span className={"text-[rgb(var(--experience-company-rgb))]"}>
             {children}
         </span>
     );

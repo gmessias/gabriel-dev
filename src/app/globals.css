@@ -8,6 +8,12 @@
   --background-end-rgb: 25, 25, 25;
   --accent-rgb: 255, 165, 0;
   --soft-accent-rgb: 250, 180, 88;
+
+  --experience-accent-rgb: 255, 165, 0;
+  --experience-soft-accent-rgb: 250, 180, 88;
+  --experience-company-rgb: 235, 213, 179;
+  --experience-date-rgb: 200, 200, 200;
+  --experience-description-rgb: 215, 215, 215;
 }
 
 @media (prefers-color-scheme: dark) {

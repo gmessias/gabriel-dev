@@ -1,6 +1,8 @@
 import GithubPinnedRepos from "@/components/GithubPinnedRepos";
 import TagColor from "@/components/TagColor";
 
+const linkCertificate = "https://www.linkedin.com/in/gmessiasp/overlay/education/383800839/multiple-media-viewer/?locale=en_US&profileId=ACoAACC3p48BqCX-3Szeukay2IA3HRUoFpAXauk&treasuryMediaId=1635522457926"
+
 export default function Home() {
   return (
       <section className={"p-4 max-w-4xl mx-auto"}>
@@ -20,10 +22,10 @@ export default function Home() {
               </p>
               <p className={"mb-3 text-base sm:text-lg indent"}>
                   {/* eslint-disable-next-line */}
-                  My education began with a <TagColor>bachelor's degree in computer science</TagColor> from the Universidade Federal de Goiás. I was part of some volunteer groups, but I stood out in the robotics group and was recognized by the university and CONSUNI. I'm very proud of that.
+                  My education began with a <TagColor>bachelor's degree in computer science</TagColor> from the Universidade Federal de Goiás. I was part of some volunteer groups, but I stood out in the robotics group and was <a href={linkCertificate} target="_blank" rel="noopener noreferrer" className={"text-[rgb(var(--soft-accent-rgb))]"}>recognized by the university</a> and CONSUNI. I'm very proud of that.
               </p>
           </div>
-          <h1 className={"text-lg text-[rgb(var(--soft-accent-rgb))] mb-4"}><strong>Projects Github</strong></h1>
+          <h1 className={"text-lg text-[rgb(var(--soft-accent-rgb))] font-bold mb-4"}>Projects Github</h1>
           <GithubPinnedRepos username={"gmessias"}></GithubPinnedRepos>
       </section>
   );
