@@ -40,9 +40,9 @@ const GithubPinnedRepos: React.FC<Props> = ({ username }) => {
             {repos.map((repo, index) => (
                 <a href={repo.html_url} target="_blank" rel="noopener noreferrer" key={index}
                    className={"bg-[rgb(var(--background-end-rgb))] border border-[rgb(var(--soft-accent-rgb))] rounded-lg p-4 hover:shadow-lg transition-shadow duration-300 block"}>
-                    <h3 className={"text-lg font-semibold text-[rgb(var(--soft-accent-rgb))] mb-2"}>
+                    <h1 className={"text-lg font-semibold text-[rgb(var(--soft-accent-rgb))] mb-2"}>
                         {repo.name}
-                    </h3>
+                    </h1>
                     <p className={"text-sm text-[rgb(var(--foreground-rgb))]"}>
                         {repo.description ?? 'No description'}
                     </p>

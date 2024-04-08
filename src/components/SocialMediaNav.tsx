@@ -8,6 +8,7 @@ const SocialMediaNav: React.FC = () => {
                       href={"https://www.linkedin.com/in/gmessiasp"}
                       target={"_blank"}
                       rel={"noopener noreferrer"}
+                      aria-label={"LinkedIn"}
                   ><i className={"fab fa-linkedin fa-2x"}></i></a>
               </li>
               <li>
@@ -16,6 +17,7 @@ const SocialMediaNav: React.FC = () => {
                       href={"https://github.com/gmessias"}
                       target={"_blank"}
                       rel={"noopener noreferrer"}
+                      aria-label={"Github"}
                   ><i className={"fab fa-github fa-2x"}></i></a>
               </li>
               <li>
@@ -24,6 +26,7 @@ const SocialMediaNav: React.FC = () => {
                       href={"mailto:gmessiasp@gmail.com"}
                       target={"_blank"}
                       rel={"noopener noreferrer"}
+                      aria-label={"Email"}
                   ><i className={"fas fa-envelope fa-2x"}></i></a>
               </li>
           </ul>
