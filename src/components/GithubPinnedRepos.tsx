@@ -16,7 +16,7 @@ interface Props{
 const GithubPinnedRepos: React.FC<Props> = ({ username }) => {
     const [repos, setRepos] = useState<Repo[]>([]);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-    const targetRepos = new Set(['controle-horas', 'Discord_BOT_PXG', 'NewspaperBot']);
+    const targetRepos = new Set(['controle-horas', 'Discord_BOT_PXG', 'NewspaperBot', 'gabriel-dev']);
 
     useEffect(() => {
         fetch(`https://api.github.com/users/${username}/repos?type=public&sort=created`)
